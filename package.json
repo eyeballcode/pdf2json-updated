@@ -34,21 +34,13 @@
     "node": ">=10.15.1"
   },
   "bin": {
-    "pdf2json": "./bin/pdf2json"
+    "pdf2json": "bin/pdf2json"
   },
   "dependencies": {
-    "xmldom": "^0.3.0",
+    "async": "^3.2.0",
     "lodash": "^4.17.13",
-    "optimist": "^0.6.1",
-    "async": "^3.2.0"
+    "xmldom": "^0.3.0"
   },
-  "devDependencies": {},
-  "bundledDependencies": [
-    "xmldom",
-    "lodash",
-    "optimist",
-    "async"
-  ],
   "maintainers": [
     {
       "name": "Modesty Zhang",
@@ -66,5 +58,10 @@
       "url": "https://github.com/modesty/pdf2json/blob/master/license.txt"
     }
   ],
-  "readme": "https://github.com/modesty/pdf2json/blob/master/readme.md"
+  "readme": "https://github.com/modesty/pdf2json/blob/master/readme.md",
+  "bundleDependencies": [
+    "xmldom",
+    "lodash",
+    "async"
+  ]
 }
