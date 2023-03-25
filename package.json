@@ -53,9 +53,6 @@
     "@xmldom/xmldom": "^0.7.5"
   },
   "devDependencies": {},
-  "bundledDependencies": [
-    "@xmldom/xmldom"
-  ],
   "maintainers": [
     {
       "name": "Modesty Zhang",
